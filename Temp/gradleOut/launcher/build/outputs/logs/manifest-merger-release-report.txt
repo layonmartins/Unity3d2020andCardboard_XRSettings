@@ -1,0 +1,357 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+MERGED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:3:1-66:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/c0297c05812c4f65312d304e65a3a144/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/004b73384d45b07846c21362b3893b3f/play-services-vision-15.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/c2387b19fac9050ebd2c6220ff4729b5/play-services-vision-common-15.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b056e5a7ae6c78c767e1456aa71fee0f/play-services-clearcut-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/385eeb1de2ed04b36bf57b901df15164/play-services-flags-15.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2c2367562d8bbddb145a9b43e05bf6d/play-services-phenotype-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:2:1-47:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/1c6ccda4efce2e74613d682566b9d8fb/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+	package
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-102
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:103-149
+	android:versionCode
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
+	android:installLocation
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:150-190
+supports-screens
+ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:135-160
+application
+ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
+MERGED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-64:19
+MERGED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-64:19
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/004b73384d45b07846c21362b3893b3f/play-services-vision-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/004b73384d45b07846c21362b3893b3f/play-services-vision-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/c2387b19fac9050ebd2c6220ff4729b5/play-services-vision-common-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/c2387b19fac9050ebd2c6220ff4729b5/play-services-vision-common-15.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b056e5a7ae6c78c767e1456aa71fee0f/play-services-clearcut-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b056e5a7ae6c78c767e1456aa71fee0f/play-services-clearcut-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2c2367562d8bbddb145a9b43e05bf6d/play-services-phenotype-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2c2367562d8bbddb145a9b43e05bf6d/play-services-phenotype-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:5-45:19
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:5-45:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:extractNativeLibs
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:18-44
+	android:label
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
+	android:icon
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
+uses-sdk
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+MERGED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/c0297c05812c4f65312d304e65a3a144/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/c0297c05812c4f65312d304e65a3a144/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/004b73384d45b07846c21362b3893b3f/play-services-vision-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/004b73384d45b07846c21362b3893b3f/play-services-vision-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/c2387b19fac9050ebd2c6220ff4729b5/play-services-vision-common-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:15.0.2] /home/venturus/.gradle/caches/transforms-2/files-2.1/c2387b19fac9050ebd2c6220ff4729b5/play-services-vision-common-15.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b056e5a7ae6c78c767e1456aa71fee0f/play-services-clearcut-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b056e5a7ae6c78c767e1456aa71fee0f/play-services-clearcut-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/385eeb1de2ed04b36bf57b901df15164/play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/385eeb1de2ed04b36bf57b901df15164/play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2c2367562d8bbddb145a9b43e05bf6d/play-services-phenotype-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2c2367562d8bbddb145a9b43e05bf6d/play-services-phenotype-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9c5f3b5175d6729ba465ec2c02813385/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/cbaf6a0ba14e448f931c4916deffd204/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/1c6ccda4efce2e74613d682566b9d8fb/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/1c6ccda4efce2e74613d682566b9d8fb/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/283d8a8c1b9f69920685c5e3d33d66d4/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/88ec4b30f9b9e29ef3a15d6d3ffb6449/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/191c7b8ab8d77f6a24f5ce842273178f/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0764f579f46daee945f58aeb5abd3d1a/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/6964f6c2fba668c314484e4971a1a6d5/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0e55d737439e7bb0d601ec0970cbdcd1/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f2cfd7471df67e524c2f9aad99e9b242/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/0270512caecd2afbe9f94d7ba00b4f2a/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/cdeb898e0fb7ed657473ea59897852bb/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/9542a760233d72187a6f74211f74f1b2/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/d1639c8bf8e94297abb50c581095ddbe/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/7970156688ae7a0ec2e1f1305182ea73/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/d329fbd7fc70709a9d574d7668c34aeb/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/8dc2f71e24361876f57f4e40952ea333/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/4b796eb9c599ac9ee2ee5d647d06fe9d/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/34ed514f010d4467a7c9fd5c12828aba/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/643c9b4c66d15fb06eb948b20e42a028/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/48abcef0e1bee900bfa1d45255147bf7/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b2994ff42e1ca78d899b6efee1f8d9c5/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/db3babe6438b79b4bdeb44206751680a/runtime-1.1.1/AndroidManifest.xml:20:5-44
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+		INJECTED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-54
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:11:5-13:35
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:11:5-13:35
+	android:glEsVersion
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:19-51
+	android:required
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:13:9-32
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-55
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-67
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:17:5-67
+MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:22-64
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-72
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:9-50:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-50
+	android:launchMode
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-48
+	android:configChanges
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-194
+	android:theme
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-54
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:27-74
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
+	android:value
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-57
+meta-data#android.notch_support
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:13-49:40
+	android:value
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:17-37
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:17-53
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:33
+	android:value
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-30
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:36
+	android:value
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-33
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-47
+meta-data#notch.config
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:50
+	android:value
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-47
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-40
+meta-data#unity.build-id
+ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:9-63:68
+	android:value
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-65
+	android:name
+		ADDED from [:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:13-42
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.CAMERA
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.NFC
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:18:5-62
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:18:22-59
+activity#com.google.cardboard.sdk.QrCodeCaptureActivity
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:21:9-25:66
+	android:label
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:24:13-67
+	android:exported
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:22:13-74
+activity#com.google.cardboard.sdk.HeadsetDetectionActivity
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:31:9-44:20
+	android:label
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:34:13-69
+	android:exported
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:32:13-77
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:scheme:cardboard
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:37:13-43:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:38:25-74
+category#android.intent.category.DEFAULT
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:40:17-76
+	android:name
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:40:27-73
+data
+ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:42:17-52
+	android:scheme
+		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:42:23-49

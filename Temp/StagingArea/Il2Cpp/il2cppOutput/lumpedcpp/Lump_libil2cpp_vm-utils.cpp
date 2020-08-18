@@ -1,0 +1,6 @@
+#include "il2cpp-config.h"
+#include "/home/venturus/Unity3d/2020.1.2f1/Editor/Data/il2cpp/libil2cpp/vm-utils/BlobReader.cpp"
+#include "/home/venturus/Unity3d/2020.1.2f1/Editor/Data/il2cpp/libil2cpp/vm-utils/Debugger.cpp"
+#include "/home/venturus/Unity3d/2020.1.2f1/Editor/Data/il2cpp/libil2cpp/vm-utils/NativeDelegateMethodCache.cpp"
+#include "/home/venturus/Unity3d/2020.1.2f1/Editor/Data/il2cpp/libil2cpp/vm-utils/NativeSymbol.cpp"
+#include "/home/venturus/Unity3d/2020.1.2f1/Editor/Data/il2cpp/libil2cpp/vm-utils/VmStringUtils.cpp"
