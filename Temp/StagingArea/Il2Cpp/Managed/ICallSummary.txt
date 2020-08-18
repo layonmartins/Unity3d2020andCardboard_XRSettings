@@ -159,6 +159,8 @@ UnityEngine.AnimationCurve::Internal_Destroy
 UnityEngine.Application::Quit
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
+UnityEngine.Behaviour::get_enabled
+UnityEngine.Camera::get_stereoEnabled
 UnityEngine.Camera::GetAllCamerasCount
 UnityEngine.Camera::GetAllCamerasImpl
 UnityEngine.Camera::get_cullingMask
@@ -296,10 +298,15 @@ UnityEngine.Texture3D::Internal_CreateImpl
 UnityEngine.Transform::GetSiblingIndex
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::get_localPosition_Injected
+UnityEngine.Transform::get_localRotation_Injected
 UnityEngine.Transform::get_position_Injected
 UnityEngine.Transform::get_rotation_Injected
 UnityEngine.Transform::set_localPosition_Injected
+UnityEngine.Transform::set_localRotation_Injected
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
 UnityEngine.U2D.SpriteAtlasManager::Register
 UnityEngine.UnityLogWriter::WriteStringToUnityLogImpl
+UnityEngine.XR.InputTracking::GetNodeStates_Internal
+UnityEngine.XR.Tango.TangoInputTracking::Internal_TryGetPoseAtTime
+UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback

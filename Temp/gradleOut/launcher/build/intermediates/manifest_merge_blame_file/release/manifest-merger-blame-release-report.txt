@@ -7,7 +7,7 @@
 7    android:versionName="0.1" >
 8
 9    <uses-sdk
-10        android:minSdkVersion="19"
+10        android:minSdkVersion="24"
 10-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 11        android:targetSdkVersion="28" />
 11-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
@@ -31,177 +31,171 @@
 21-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:19-51
 22        android:required="true" />
 22-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:13:9-32
-23    <uses-feature
-23-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-16:36
-24        android:name="android.hardware.vulkan.version"
-24-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-55
-25        android:required="false" />
-25-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-33
-26
-27    <uses-permission android:name="android.permission.INTERNET" />
-27-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-67
-27-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:22-64
-28
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-67
+24-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-64
+25
+26    <uses-feature
+26-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-19:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-52
+28        android:required="false" />
+28-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-33
 29    <uses-feature
 29-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-22:36
-30        android:name="android.hardware.touchscreen"
-30-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-52
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-63
 31        android:required="false" />
 31-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-33
 32    <uses-feature
 32-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-25:36
-33        android:name="android.hardware.touchscreen.multitouch"
-33-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-63
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-72
 34        android:required="false" />
 34-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
-35    <uses-feature
-35-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:5-28:36
-36        android:name="android.hardware.touchscreen.multitouch.distinct"
-36-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-72
-37        android:required="false" />
-37-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-33
-38
-39    <uses-permission android:name="android.permission.CAMERA" />
-39-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:5-65
-39-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:22-62
-40    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-40-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:16:5-81
-40-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:16:22-78
-41    <uses-permission android:name="android.permission.NFC" />
-41-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:18:5-62
-41-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:18:22-59
-42
-43    <application
-43-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
-44        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-44-->[com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
-45        android:extractNativeLibs="true"
-45-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
-46        android:icon="@mipmap/app_icon"
-46-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
-47        android:label="@string/app_name"
-47-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
-48        android:supportsRtl="true" >
-48-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:18-44
-49        <activity
-49-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:9-50:20
-50            android:name="com.unity3d.player.UnityPlayerActivity"
-50-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-66
-51            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-51-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-194
-52            android:hardwareAccelerated="false"
-52-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-48
-53            android:launchMode="singleTask"
-53-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-44
-54            android:screenOrientation="landscape"
-54-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-50
-55            android:theme="@style/UnityThemeSelector" >
-55-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-54
-56            <intent-filter>
-56-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-42:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:17-69
-57-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:25-66
+35
+36    <uses-permission android:name="android.permission.CAMERA" />
+36-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:5-65
+36-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:22-62
+37    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+37-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:16:5-81
+37-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:16:22-78
+38    <uses-permission android:name="android.permission.NFC" />
+38-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:18:5-62
+38-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:18:22-59
+39
+40    <application
+40-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:3-116
+41        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+41-->[com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+42        android:extractNativeLibs="true"
+42-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:16-48
+43        android:icon="@mipmap/app_icon"
+43-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
+44        android:label="@string/app_name"
+44-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
+45        android:supportsRtl="true" >
+45-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:18-44
+46        <activity
+46-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-47:20
+47            android:name="com.unity3d.player.UnityPlayerActivity"
+47-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-66
+48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+48-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-194
+49            android:hardwareAccelerated="false"
+49-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-48
+50            android:launchMode="singleTask"
+50-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-44
+51            android:screenOrientation="landscape"
+51-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-50
+52            android:theme="@style/UnityThemeSelector" >
+52-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-54
+53            <intent-filter>
+53-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-39:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:17-69
+54-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:17-77
+56-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:27-74
+57            </intent-filter>
 58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:17-77
-59-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:27-74
-60            </intent-filter>
-61
+59            <meta-data
+59-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-43:40
+60                android:name="unityplayer.UnityActivity"
+60-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-57
+61                android:value="true" />
+61-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:17-37
 62            <meta-data
 62-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-46:40
-63                android:name="unityplayer.UnityActivity"
-63-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-57
+63                android:name="android.notch_support"
+63-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:17-53
 64                android:value="true" />
 64-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-37
-65            <meta-data
-65-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:13-49:40
-66                android:name="android.notch_support"
-66-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:17-53
-67                android:value="true" />
-67-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:17-37
-68        </activity>
-69
+65        </activity>
+66
+67        <meta-data
+67-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51:33
+68            android:name="unity.splash-mode"
+68-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-45
+69            android:value="0" />
+69-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-30
 70        <meta-data
-70-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:33
-71            android:name="unity.splash-mode"
-71-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-45
-72            android:value="0" />
-72-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-30
+70-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:9-54:36
+71            android:name="unity.splash-enable"
+71-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:13-47
+72            android:value="True" />
+72-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-33
 73        <meta-data
-73-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:36
-74            android:name="unity.splash-enable"
-74-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-47
-75            android:value="True" />
-75-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-33
+73-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:9-57:50
+74            android:name="notch.config"
+74-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:13-40
+75            android:value="portrait|landscape" />
+75-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
 76        <meta-data
-76-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:50
-77            android:name="notch.config"
-77-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-40
-78            android:value="portrait|landscape" />
-78-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-47
-79        <meta-data
-79-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:9-63:68
-80            android:name="unity.build-id"
-80-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:13-42
-81            android:value="de95ec31-9d22-4bc2-82dc-8ad0ac5148e0" />
-81-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-65
-82
-83        <activity
-83-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
-84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-84-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
-85            android:exported="false"
-85-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
-86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-86-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
-87
-88        <meta-data
-88-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
-89            android:name="com.google.android.gms.version"
-89-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
-90            android:value="@integer/google_play_services_version" />
-90-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
-91
-92        <activity
-92-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:21:9-25:66
-93            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
-93-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:22:13-74
-94            android:exported="false"
-94-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:23:13-37
-95            android:label="@string/title_activity_qr_code_capture"
-95-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:24:13-67
-96            android:theme="@style/Theme.AppCompat.NoActionBar" />
-96-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:25:13-63
-97        <!--
-98          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
-99          NFC tag is detected.
-100        -->
-101        <activity
-101-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:31:9-44:20
-102            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
-102-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:32:13-77
-103            android:exported="true"
-103-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:33:13-36
-104            android:label="@string/headset_detection_activity_title" >
-104-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:34:13-69
-105
-106            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
-107            <intent-filter>
-107-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:37:13-43:29
-108                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-108-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:38:17-77
-108-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:38:25-74
-109
-110                <category android:name="android.intent.category.DEFAULT" />
-110-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:40:17-76
-110-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:40:27-73
-111
-112                <data android:scheme="cardboard" />
-112-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:42:17-52
-112-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:42:23-49
-113            </intent-filter>
-114        </activity>
-115    </application>
-116
-117</manifest>
+76-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:9-60:68
+77            android:name="unity.build-id"
+77-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:13-42
+78            android:value="b66e89eb-c0c5-48a4-a889-aa9ebdb0699b" />
+78-->[:unityLibrary] /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-65
+79
+80        <activity
+80-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+81-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+82            android:exported="false"
+82-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+83-->[com.google.android.gms:play-services-base:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/087c54f9126acb40c57f6ac908c43059/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+84
+85        <meta-data
+85-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+86            android:name="com.google.android.gms.version"
+86-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+87            android:value="@integer/google_play_services_version" />
+87-->[com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+88
+89        <activity
+89-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:21:9-25:66
+90            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+90-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:22:13-74
+91            android:exported="false"
+91-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:23:13-37
+92            android:label="@string/title_activity_qr_code_capture"
+92-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:24:13-67
+93            android:theme="@style/Theme.AppCompat.NoActionBar" />
+93-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:25:13-63
+94        <!--
+95          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+96          NFC tag is detected.
+97        -->
+98        <activity
+98-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:31:9-44:20
+99            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+99-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:32:13-77
+100            android:exported="true"
+100-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:33:13-36
+101            android:label="@string/headset_detection_activity_title" >
+101-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:34:13-69
+102
+103            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+104            <intent-filter>
+104-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:37:13-43:29
+105                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+105-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:38:17-77
+105-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:38:25-74
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:40:17-76
+107-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:40:27-73
+108
+109                <data android:scheme="cardboard" />
+109-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:42:17-52
+109-->[:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:42:23-49
+110            </intent-filter>
+111        </activity>
+112    </application>
+113
+114</manifest>

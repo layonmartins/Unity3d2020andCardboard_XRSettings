@@ -7,13 +7,10 @@
     android:versionName="0.1" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="24"
         android:targetSdkVersion="28" />
 
     <uses-feature android:glEsVersion="0x00020000" />
-    <uses-feature
-        android:name="android.hardware.vulkan.version"
-        android:required="false" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -60,7 +57,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="de95ec31-9d22-4bc2-82dc-8ad0ac5148e0" />
+            android:value="b66e89eb-c0c5-48a4-a889-aa9ebdb0699b" />
     </application>
 
 </manifest>
