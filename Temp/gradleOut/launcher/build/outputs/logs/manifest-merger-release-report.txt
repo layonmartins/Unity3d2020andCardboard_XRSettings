@@ -15,6 +15,10 @@ MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/venturus/.g
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:gvr-keyboard:] /home/venturus/.gradle/caches/transforms-2/files-2.1/108e06a3e053e7ce4621d931636ffc3c/gvr-keyboard/AndroidManifest.xml:2:1-11:12
+MERGED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:2:1-31:12
+MERGED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:2:1-30:12
+MERGED from [:gvr:] /home/venturus/.gradle/caches/transforms-2/files-2.1/805b9c89ae8cd06767d4c302e7d9cdff/gvr/AndroidManifest.xml:2:1-9:12
 MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:2:1-47:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/93996a009dd58fd05ed812245db0148c/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
@@ -93,6 +97,10 @@ MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.
 MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/4c51536a694461a03a515cad751d7e08/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:11:5-29:19
+MERGED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:11:5-29:19
+MERGED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:11:5-28:19
+MERGED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:11:5-28:19
 MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:5-45:19
 MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:5-45:19
 MERGED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:5-94
@@ -104,9 +112,11 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/venturus/.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/f13e80600485f087c51c6872f934df1c/support-compat-28.0.0/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:20:18-44
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:49-81
+	android:allowBackup
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:12:9-35
 	android:icon
 		ADDED from /home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:5:82-113
 uses-sdk
@@ -135,6 +145,14 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturu
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/fd222fb2011e66d641e7a2737fef3324/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:gvr-keyboard:] /home/venturus/.gradle/caches/transforms-2/files-2.1/108e06a3e053e7ce4621d931636ffc3c/gvr-keyboard/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-keyboard:] /home/venturus/.gradle/caches/transforms-2/files-2.1/108e06a3e053e7ce4621d931636ffc3c/gvr-keyboard/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:gvr:] /home/venturus/.gradle/caches/transforms-2/files-2.1/805b9c89ae8cd06767d4c302e7d9cdff/gvr/AndroidManifest.xml:5:5-7:41
+MERGED from [:gvr:] /home/venturus/.gradle/caches/transforms-2/files-2.1/805b9c89ae8cd06767d4c302e7d9cdff/gvr/AndroidManifest.xml:5:5-7:41
 MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:7:5-9:41
 MERGED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:28.0.0] /home/venturus/.gradle/caches/transforms-2/files-2.1/a2618dc18ca07e54a88e1f24d6803537/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
@@ -305,6 +323,38 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/venturus/.gradle/caches/transforms-2/files-2.1/b38e36bab8ec737c04cb35d516d4c4df/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+activity#com.google.gvr.keyboardsupport.TransitionVRActivity
+ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:17:9-28:20
+	android:label
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:22:13-45
+	android:enableVrMode
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:20:13-106
+	android:exported
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:21:13-37
+	android:resizeableActivity
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:23:13-47
+	android:configChanges
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:19:13-100
+	android:name
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:18:13-79
+intent-filter#category:name:android.intent.category.LAUNCHER+category:name:com.google.intent.category.DAYDREAM
+ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:24:13-27:29
+category#com.google.intent.category.DAYDREAM
+ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:26:17-80
+	android:name
+		ADDED from [:gvr-keyboardsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/d267e9a404302fb228557e171f19a631/gvr-keyboardsupport-release/AndroidManifest.xml:26:27-77
+activity#com.google.gvr.permissionsupport.TransitionVRActivity
+ADDED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:17:9-27:20
+	android:label
+		ADDED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:22:13-45
+	android:enableVrMode
+		ADDED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:20:13-106
+	android:exported
+		ADDED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:21:13-37
+	android:configChanges
+		ADDED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:19:13-100
+	android:name
+		ADDED from [:gvr-permissionsupport-release:] /home/venturus/.gradle/caches/transforms-2/files-2.1/f5589f19ef008033ecc8646b357db9ea/gvr-permissionsupport-release/AndroidManifest.xml:18:13-81
 uses-permission#android.permission.CAMERA
 ADDED from [:sdk:] /home/venturus/.gradle/caches/transforms-2/files-2.1/6148335837cb0eebc829b7e757cda71a/sdk/AndroidManifest.xml:15:5-65
 	android:name

@@ -159,6 +159,8 @@ IL2CPP_EXTERN_C const uint32_t Hand_Equals_m727113281F30E554A3A60DEFC4ED61CC9490
 IL2CPP_EXTERN_C const uint32_t InputDevice_Equals_mF29A225E81A87941551F70A2351CB803A6D94063_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputDevices_InvokeConnectionEvent_m19E87BB6671D4B4CE3EB322EEE3621B0146A7077_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputFeatureUsage_Equals_mC0A1A665A98F42B2D5896BB9BC4CBA42FB59D582_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t InputTracking_GetLocalPosition_mE3A91D048B1F4B748F1FFDA6F68451AE1CEFC1B5_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t InputTracking_GetLocalRotation_m03C0D88C3F5EA32254BB2E45CFDF93B988B83715_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputTracking_GetNodeStates_m0C47A6D099EE6EAC2D64B2D1D23DA72E4D42B880_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputTracking_InvokeTrackingEvent_mF9CC9853D284F640ACEB29225EF35646166061A0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputTracking__cctor_m8C342AE21A5D67A0378CE91016DBCCFFC62E34ED_MetadataUsageId;
@@ -2839,6 +2841,10 @@ inline void Action_1_Invoke_mD7440CB91FE64B4EAD0D34248075E0F39797C946 (Action_1_
 {
 	((  void (*) (Action_1_t016EBE9560F0A12616F6E8C2FB15578C134D1603 *, XRNodeState_t6DC58D0C1BF2C4323D16B3905FDBEE7C03E27D33 , const RuntimeMethod*))Action_1_Invoke_mD7440CB91FE64B4EAD0D34248075E0F39797C946_gshared)(__this, ___obj0, method);
 }
+// System.Void UnityEngine.XR.InputTracking::GetLocalPosition_Injected(UnityEngine.XR.XRNode,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_GetLocalPosition_Injected_mD7BB451DDE0873DCF773470582C09B36F2588A33 (int32_t ___node0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___ret1, const RuntimeMethod* method);
+// System.Void UnityEngine.XR.InputTracking::GetLocalRotation_Injected(UnityEngine.XR.XRNode,UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_GetLocalRotation_Injected_m53267E9A1557E8C0669CB762CBB628404377FED9 (int32_t ___node0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___ret1, const RuntimeMethod* method);
 // System.Void System.ArgumentNullException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentNullException__ctor_m81AB157B93BFE2FBFDB08B88F84B444293042F97 (ArgumentNullException_tFB5C4621957BC53A7D1B4FDD5C38B4D6E15DB8FB * __this, String_t* ___paramName0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>::Clear()
@@ -4175,6 +4181,44 @@ IL_0088:
 		return;
 	}
 }
+// UnityEngine.Vector3 UnityEngine.XR.InputTracking::GetLocalPosition(UnityEngine.XR.XRNode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  InputTracking_GetLocalPosition_mE3A91D048B1F4B748F1FFDA6F68451AE1CEFC1B5 (int32_t ___node0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InputTracking_GetLocalPosition_mE3A91D048B1F4B748F1FFDA6F68451AE1CEFC1B5_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___node0;
+		IL2CPP_RUNTIME_CLASS_INIT(InputTracking_t2CCE92D4A5FE0AEBC14996566D93ED4B08F4CB6D_il2cpp_TypeInfo_var);
+		InputTracking_GetLocalPosition_Injected_mD7BB451DDE0873DCF773470582C09B36F2588A33(L_0, (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_0), /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_1 = V_0;
+		return L_1;
+	}
+}
+// UnityEngine.Quaternion UnityEngine.XR.InputTracking::GetLocalRotation(UnityEngine.XR.XRNode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  InputTracking_GetLocalRotation_m03C0D88C3F5EA32254BB2E45CFDF93B988B83715 (int32_t ___node0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InputTracking_GetLocalRotation_m03C0D88C3F5EA32254BB2E45CFDF93B988B83715_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		int32_t L_0 = ___node0;
+		IL2CPP_RUNTIME_CLASS_INIT(InputTracking_t2CCE92D4A5FE0AEBC14996566D93ED4B08F4CB6D_il2cpp_TypeInfo_var);
+		InputTracking_GetLocalRotation_Injected_m53267E9A1557E8C0669CB762CBB628404377FED9(L_0, (Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 *)(&V_0), /*hidden argument*/NULL);
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_1 = V_0;
+		return L_1;
+	}
+}
 // System.Void UnityEngine.XR.InputTracking::GetNodeStates(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_GetNodeStates_m0C47A6D099EE6EAC2D64B2D1D23DA72E4D42B880 (List_1_t82E4873F3D4F1E8645F8EAD444668DC81AB70671 * ___nodeStates0, const RuntimeMethod* method)
 {
@@ -4236,6 +4280,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking__cctor_m8C342AE21A5D67A037
 		((InputTracking_t2CCE92D4A5FE0AEBC14996566D93ED4B08F4CB6D_StaticFields*)il2cpp_codegen_static_fields_for(InputTracking_t2CCE92D4A5FE0AEBC14996566D93ED4B08F4CB6D_il2cpp_TypeInfo_var))->set_nodeRemoved_3((Action_1_t016EBE9560F0A12616F6E8C2FB15578C134D1603 *)NULL);
 		return;
 	}
+}
+// System.Void UnityEngine.XR.InputTracking::GetLocalPosition_Injected(UnityEngine.XR.XRNode,UnityEngine.Vector3&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_GetLocalPosition_Injected_mD7BB451DDE0873DCF773470582C09B36F2588A33 (int32_t ___node0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___ret1, const RuntimeMethod* method)
+{
+	typedef void (*InputTracking_GetLocalPosition_Injected_mD7BB451DDE0873DCF773470582C09B36F2588A33_ftn) (int32_t, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *);
+	static InputTracking_GetLocalPosition_Injected_mD7BB451DDE0873DCF773470582C09B36F2588A33_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (InputTracking_GetLocalPosition_Injected_mD7BB451DDE0873DCF773470582C09B36F2588A33_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.InputTracking::GetLocalPosition_Injected(UnityEngine.XR.XRNode,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___node0, ___ret1);
+}
+// System.Void UnityEngine.XR.InputTracking::GetLocalRotation_Injected(UnityEngine.XR.XRNode,UnityEngine.Quaternion&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_GetLocalRotation_Injected_m53267E9A1557E8C0669CB762CBB628404377FED9 (int32_t ___node0, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 * ___ret1, const RuntimeMethod* method)
+{
+	typedef void (*InputTracking_GetLocalRotation_Injected_m53267E9A1557E8C0669CB762CBB628404377FED9_ftn) (int32_t, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4 *);
+	static InputTracking_GetLocalRotation_Injected_m53267E9A1557E8C0669CB762CBB628404377FED9_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (InputTracking_GetLocalRotation_Injected_m53267E9A1557E8C0669CB762CBB628404377FED9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.InputTracking::GetLocalRotation_Injected(UnityEngine.XR.XRNode,UnityEngine.Quaternion&)");
+	_il2cpp_icall_func(___node0, ___ret1);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

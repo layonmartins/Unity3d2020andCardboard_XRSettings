@@ -27,6 +27,8 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Udostępnij dla"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Udostępnij przez: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Zwiń"</string>
+    <string name="back_button_content_description">wstecz</string>
+    <string name="cancel_button">Anuluj</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Włącz"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Aplikacja <ns1:g id="APP_NAME">%1$s</ns1:g> nie będzie działać, jeśli nie włączysz Usług Google Play."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Włącz Usługi Google Play"</string>
@@ -45,6 +47,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otwórz na telefonie"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Zaloguj się"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Zaloguj się przez Google"</string>
+    <string name="dialog_button_got_it">OK</string>
+    <string name="dialog_button_open_help_center">OTWÓRZ CENTRUM POMOCY</string>
+    <string name="dialog_message_incompatible_phone">Wymagany jest telefon obsługujący Daydream. Więcej informacji znajdziesz w Centrum pomocy Daydream.</string>
+    <string name="dialog_message_no_cardboard">Pobierz aplikację Cardboard, by skonfigurować gogle.</string>
+    <string name="dialog_title">Konfiguracja</string>
+    <string name="dialog_title_incompatible_phone">Niezgodny telefon</string>
+    <string name="dialog_title_vr_core_not_enabled">Wymagana konfiguracja</string>
+    <string name="dialog_title_vr_core_not_installed">Wymagana instalacja</string>
+    <string name="dialog_title_warning">Ostrzeżenie</string>
+    <string name="dialog_vr_core_not_enabled">Ta aplikacja może nie działać prawidłowo bez włączenia Usług Google VR. Włącz je w Ustawieniach telefonu, zanim przejdziesz dalej.</string>
+    <string name="dialog_vr_core_not_installed">Ta aplikacja może nie działać prawidłowo bez Usług Google VR. Zainstaluj je ze Sklepu Play, zanim przejdziesz dalej.</string>
+    <string name="go_to_playstore_button">Otwórz Sklep Play</string>
+    <string name="go_to_vr_listeners_settings_button">Otwórz Ustawienia</string>
+    <string name="no_browser_text">Brak przeglądarki, w której można otworzyć stronę</string>
+    <string name="place_your_phone_into_cardboard">Umieść telefon w swoich goglach Cardboard</string>
+    <string name="place_your_viewer_into_viewer_format">Umieść telefon w goglach %s</string>
     <string msgid="146198913615257606" name="search_menu_title">"Szukaj"</string>
+    <string name="settings_button_content_description">ustawienia</string>
+    <string name="setup_button">Skonfiguruj</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="switch_viewer_action">Przełącz</string>
+    <string name="switch_viewer_prompt">Masz inne gogle?</string>
 </resources>

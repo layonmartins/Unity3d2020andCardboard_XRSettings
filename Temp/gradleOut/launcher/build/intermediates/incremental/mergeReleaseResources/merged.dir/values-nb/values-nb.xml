@@ -27,6 +27,8 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string name="back_button_content_description">tilbake</string>
+    <string name="cancel_button">Avbryt</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Slå på"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke med mindre du slår på Google Play-tjenester."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Slå på Google Play-tjenester"</string>
@@ -45,6 +47,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Åpne på telefonen"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Logg på"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Logg på med Google"</string>
+    <string name="dialog_button_got_it">GREIT</string>
+    <string name="dialog_button_open_help_center">ÅPNE BRUKERSTØTTEN</string>
+    <string name="dialog_message_incompatible_phone">Du må ha en Daydream-kompatibel telefon. Gå til brukerstøtten for Daydream for mer informasjon.</string>
+    <string name="dialog_message_no_cardboard">Skaff deg Cardboard-appen for å konfigurere brillene dine.</string>
+    <string name="dialog_title">Konfigurer</string>
+    <string name="dialog_title_incompatible_phone">Inkompatibel telefon</string>
+    <string name="dialog_title_vr_core_not_enabled">Konfigurering kreves</string>
+    <string name="dialog_title_vr_core_not_installed">Installasjon kreves</string>
+    <string name="dialog_title_warning">Advarsel</string>
+    <string name="dialog_vr_core_not_enabled">Det er ikke sikkert at denne appen fungerer som den skal hvis du ikke slår på Google VR-tjenester. Slå dem på i telefoninnstillingene før du fortsetter.</string>
+    <string name="dialog_vr_core_not_installed">Det er ikke sikkert at denne appen fungerer som den skal uten Google VR-tjenester. Installer Google VR-tjenester fra Play Butikk før du fortsetter.</string>
+    <string name="go_to_playstore_button">Gå til Play Butikk</string>
+    <string name="go_to_vr_listeners_settings_button">Gå til Innstillinger</string>
+    <string name="no_browser_text">Finner ingen nettleser som kan åpne nettstedet</string>
+    <string name="place_your_phone_into_cardboard">Sett inn telefonen i Cardboard-brillene</string>
+    <string name="place_your_viewer_into_viewer_format">Sett inn telefonen i %s-brillene</string>
     <string msgid="146198913615257606" name="search_menu_title">"Søk"</string>
+    <string name="settings_button_content_description">innstillinger</string>
+    <string name="setup_button">Konfigurer</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="switch_viewer_action">Bytt</string>
+    <string name="switch_viewer_prompt">Bruker du andre briller?</string>
 </resources>

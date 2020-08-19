@@ -27,6 +27,8 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Jakaminen:"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Jaa sovelluksessa <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Kutista"</string>
+    <string name="back_button_content_description">takaisin</string>
+    <string name="cancel_button">Peruuta</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ota käyttöön"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ei toimi, ellet ota Google Play Palveluita käyttöön."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ota Google Play Palvelut käyttöön"</string>
@@ -45,6 +47,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Avaa puhelimessa"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Kirjaudu sisään"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Kirjaudu Google-tilille"</string>
+    <string name="dialog_button_got_it">SELVÄ</string>
+    <string name="dialog_button_open_help_center">AVAA OHJEKESKUS</string>
+    <string name="dialog_message_incompatible_phone">Puhelimen on oltava yhteensopiva Daydreamin kanssa. Lisätietoja on Daydreamin ohjekeskuksessa.</string>
+    <string name="dialog_message_no_cardboard">Lataa Cardboard-sovellus lasien asetusten määrittämistä varten.</string>
+    <string name="dialog_title">Määritä</string>
+    <string name="dialog_title_incompatible_phone">Puhelin ei ole yhteensopiva</string>
+    <string name="dialog_title_vr_core_not_enabled">Asetukset vaaditaan</string>
+    <string name="dialog_title_vr_core_not_installed">Sovellus on asennettava</string>
+    <string name="dialog_title_warning">Varoitus</string>
+    <string name="dialog_vr_core_not_enabled">Tämä sovellus ei ehkä toimi oikein, jos Googlen VR-palvelut eivät ole käytössä. Ota ne käyttöön puhelimen Asetukset-osiossa ennen jatkamista.</string>
+    <string name="dialog_vr_core_not_installed">Tämä sovellus ei ehkä toimi oikein ilman Googlen VR-palveluita. Asenna Googlen VR-palvelut Play Kaupasta ennen jatkamista.</string>
+    <string name="go_to_playstore_button">Siirry Play Kauppaan</string>
+    <string name="go_to_vr_listeners_settings_button">Siirry asetuksiin</string>
+    <string name="no_browser_text">Ei verkkosivuston avaamiseen sopivaa selainta</string>
+    <string name="place_your_phone_into_cardboard">Aseta puhelin Cardboard-laseihin.</string>
+    <string name="place_your_viewer_into_viewer_format">Aseta puhelin laseihin (%s).</string>
     <string msgid="146198913615257606" name="search_menu_title">"Haku"</string>
+    <string name="settings_button_content_description">asetukset</string>
+    <string name="setup_button">Aloita määritys</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="switch_viewer_action">Vaihda</string>
+    <string name="switch_viewer_prompt">Vaihdetaanko lasit?</string>
 </resources>

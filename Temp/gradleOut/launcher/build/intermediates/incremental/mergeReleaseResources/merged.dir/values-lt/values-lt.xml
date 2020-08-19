@@ -27,6 +27,8 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Bendrinti naudojant"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Bendrinti naudojant programą „<ns1:g id="APPLICATION_NAME">%s</ns1:g>“"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sutraukti"</string>
+    <string name="back_button_content_description">atgal</string>
+    <string name="cancel_button">Atšaukti</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Įgalinti"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"„<ns1:g id="APP_NAME">%1$s</ns1:g>“ neveiks, jei neįgalinsite „Google Play“ paslaugų."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Įgalinkite „Google Play“ paslaugas"</string>
@@ -45,6 +47,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Atidaryti telefone"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Prisijungti"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prisijungti naudojant „Google“"</string>
+    <string name="dialog_button_got_it">SUPRATAU</string>
+    <string name="dialog_button_open_help_center">ATIDARYTI PAGALBOS CENTRĄ</string>
+    <string name="dialog_message_incompatible_phone">Reikia su „Daydream“ suderinamo telefono. Daugiau informacijos galite gauti apsilankę „Daydream“ pagalbos centre.</string>
+    <string name="dialog_message_no_cardboard">Gaukite „Cardboard“ programą, kad galėtumėte konfigūruoti žiūriklį.</string>
+    <string name="dialog_title">Konfigūravimas</string>
+    <string name="dialog_title_incompatible_phone">Nesuderinamas telefonas</string>
+    <string name="dialog_title_vr_core_not_enabled">Būtina užbaigti sąranką</string>
+    <string name="dialog_title_vr_core_not_installed">Būtina įdiegti</string>
+    <string name="dialog_title_warning">Įspėjimas</string>
+    <string name="dialog_vr_core_not_enabled">Ši programa gali tinkamai neveikti, jei „Google“ VR paslaugos nebus įgalintos. Įgalinkite jas telefono Nustatymuose, kad galėtumėte tęsti.</string>
+    <string name="dialog_vr_core_not_installed">Ši programa gali tinkamai neveikti be „Google“ VR paslaugų. Įdiekite „Google“ VR paslaugas iš „Play“ parduotuvės, kad galėtumėte tęsti.</string>
+    <string name="go_to_playstore_button">Eiti į „Play“ parduotuvę</string>
+    <string name="go_to_vr_listeners_settings_button">Eiti į Nustatymus</string>
+    <string name="no_browser_text">Nėra naršyklės, kuria būtų galima atidar. svetainę</string>
+    <string name="place_your_phone_into_cardboard">Įdėkite telefoną į „Cardboard“ žiūriklį</string>
+    <string name="place_your_viewer_into_viewer_format">Įdėkite telefoną į „%s“ žiūriklį</string>
     <string msgid="146198913615257606" name="search_menu_title">"Paieška"</string>
+    <string name="settings_button_content_description">nustatymai</string>
+    <string name="setup_button">Sąranka</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="switch_viewer_action">Perjungti</string>
+    <string name="switch_viewer_prompt">Naudoti kitą žiūriklį?</string>
 </resources>

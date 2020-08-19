@@ -27,6 +27,8 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="back_button_content_description">indietro</string>
+    <string name="cancel_button">Annulla</string>
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Attiva"</string>
     <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> non funzionerà se non attivi Google Play Services."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
@@ -45,6 +47,26 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"Apri sul telefono"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"Accedi"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <string name="dialog_button_got_it">OK</string>
+    <string name="dialog_button_open_help_center">APRI IL CENTRO ASSISTENZA</string>
+    <string name="dialog_message_incompatible_phone">È necessario un telefono compatibile con Daydream. Visita il Centro assistenza di Daydream per maggiori informazioni.</string>
+    <string name="dialog_message_no_cardboard">Scarica l\'app Cardboard per configurare il visore.</string>
+    <string name="dialog_title">Configura</string>
+    <string name="dialog_title_incompatible_phone">Telefono non compatibile</string>
+    <string name="dialog_title_vr_core_not_enabled">È richiesta la configurazione</string>
+    <string name="dialog_title_vr_core_not_installed">È richiesta l\'installazione</string>
+    <string name="dialog_title_warning">Avviso</string>
+    <string name="dialog_vr_core_not_enabled">Questa applicazione potrebbe non funzionare correttamente se non sono abilitati i Servizi Google VR. Abilitali dalle Impostazioni del telefono prima di continuare.</string>
+    <string name="dialog_vr_core_not_installed">Questa applicazione potrebbe non funzionare correttamente senza Servizi Google VR. Installa Servizi Google VR dal Play Store prima di continuare.</string>
+    <string name="go_to_playstore_button">Vai al Play Store</string>
+    <string name="go_to_vr_listeners_settings_button">Vai a Impostazioni</string>
+    <string name="no_browser_text">Nessun browser per aprire il sito web</string>
+    <string name="place_your_phone_into_cardboard">Inserisci il telefono nel visore Cardboard</string>
+    <string name="place_your_viewer_into_viewer_format">Inserisci il telefono nel visore %s</string>
     <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="settings_button_content_description">impostazioni</string>
+    <string name="setup_button">Imposta</string>
     <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="switch_viewer_action">Cambia</string>
+    <string name="switch_viewer_prompt">Il visore è diverso?</string>
 </resources>

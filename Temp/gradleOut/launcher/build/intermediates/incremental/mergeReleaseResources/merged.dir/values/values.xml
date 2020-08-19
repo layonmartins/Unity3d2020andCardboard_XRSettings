@@ -14,6 +14,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="alignment_marker_color">#b4b4b4</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -82,6 +83,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="white_transparent">#4cFFFFFF</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -157,6 +159,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="alignment_marker_height">24mm</dimen>
+    <dimen name="alignment_marker_thickness">2dip</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -200,6 +204,7 @@
     <dimen name="tooltip_vertical_padding">6.5dp</dimen>
     <dimen name="tooltip_y_offset_non_touch">0dp</dimen>
     <dimen name="tooltip_y_offset_touch">16dp</dimen>
+    <dimen name="transition_bottom_bar_height">112dip</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -266,6 +271,12 @@
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">XR_Cardboard</string>
+    <string description=" Accessibility description for the back button displayed in the top corner of the VR application to go back to the previous screen. [CHAR LIMIT=50]" name="back_button_content_description">
+    back
+  </string>
+    <string description=" Short text shown in a button in the dialog box that shows up to help users configure their Cardboard experience. By clicking on this button, the user will cancel the setup flow and return to their previous activity. [CHAR LIMIT=20]" name="cancel_button">
+      Cancel
+    </string>
     <string description="Text shown on bottom of QR code capture activity to indicate SKIP button                          presence. [CHAR_LIMIT=30]" name="cannot_find_symbol">
             Can\'t find this symbol?</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
@@ -288,21 +299,84 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string description="Text shown when a connection error occurs when retrieving the QR Code                          content. [CHAR_LIMIT=30]" name="connection_error">
             Connection error</string>
+    <string description=" Button text when the user is prompted with an action but can refuse that action. This communicates that the user has understood the dialog but wishes to take no further action, similar to CANCEL. [CHAR LIMIT=30]" name="dialog_button_got_it">
+    GOT IT
+  </string>
+    <string description=" Button text when the user is prompted to open the Daydream Help Center. [CHAR LIMIT=40]" name="dialog_button_open_help_center">
+    OPEN HELP CENTER
+  </string>
+    <string description=" Text shown in a dialog telling the user that their phone is not a Daydream-compatible phone, also directing them to the Daydream Help Center website. [CHAR LIMIT=200]" name="dialog_message_incompatible_phone">
+    A Daydream-ready phone is required. Visit the Daydream Help Center for more information.
+  </string>
+    <string description=" Text shown inside the dialog box that shows up to help users configure their Cardboard experience. This string is displayed when the user doesn&apos;t have the cardboard app installed. [CHAR LIMIT=200]" name="dialog_message_no_cardboard">
+      Get the Cardboard app in order to configure your viewer.
+    </string>
+    <string description=" Short text for the title of the dialog box that shows up to help users configure their Cardboard experience. [CHAR LIMIT=30]" name="dialog_title">
+      Configure
+    </string>
+    <string description=" Short title text for the dialog telling the user that their phone is incompatible. [CHAR LIMIT=30]" name="dialog_title_incompatible_phone">
+    Incompatible phone
+  </string>
+    <string description=" Short title text for the dialog telling the user that additional setup is required (for VrCore). [CHAR LIMIT = 30]" name="dialog_title_vr_core_not_enabled">
+    Setup required
+  </string>
+    <string description=" Short title text for the dialog telling the user that installation is required (for VrCore). [CHAR LIMIT = 30]" name="dialog_title_vr_core_not_installed">
+    Install required
+  </string>
+    <string description="Title of warning dialogs shown to user. [CHAR LIMIT=25]" name="dialog_title_warning">
+    Warning
+  </string>
+    <string description="Dialog to show before redirecting user to VrListenerService Settings. [CHAR LIMIT=250]" name="dialog_vr_core_not_enabled">
+    This application may not work properly without enabling Google VR Services, please enable this
+    in phone Settings before continuing.
+  </string>
+    <string description="Dialog to show before redirecting user to download VrCore. [CHAR LIMIT=250]" name="dialog_vr_core_not_installed">
+    This application may not work properly without Google VR Services.  Please install
+    Google VR Services from the Play Store before continuing.
+  </string>
     <string name="game_view_content_description">Game view</string>
+    <string description=" Short text shown in a button in the dialog box that shows up to help users configure their Cardboard experience. By clicking on this button, the user goes to the Cardboard app page on Playstore. [CHAR LIMIT=30]" name="go_to_playstore_button">
+      Go to the Play Store
+    </string>
+    <string description="Short text shown in a button in the dialog box that allows users to open Settings         for Google VR Services. [CHAR LIMIT=30]" name="go_to_vr_listeners_settings_button">
+    Go to Settings
+  </string>
+    <string description="Google VR component name used for enabling VR mode" name="gvr_vr_mode_component" translatable="false">com.google.vr.vrcore/com.google.vr.vrcore.common.VrCoreListenerService</string>
     <string description="Headset detection activity title. [CHAR_LIMIT=30]" name="headset_detection_activity_title">
             HeadsetDetector</string>
     <string description="Text shown when an invalid QR code is scanned. [CHAR_LIMIT=30]" name="invalid_qr_code">
             Invalid QR Code</string>
     <string description="Text shown on Android Toast when detector dependencies can not be                          downloaded due to low storage. [CHAR_LIMIT=70]" name="low_storage_error">
             Detector dependencies cannot be downloaded due to low device storage</string>
+    <string description=" Error message displayed as a Toast when Android could not find a browser to open a website. [CHAR LIMIT=50]" name="no_browser_text">
+      No browser to open website
+    </string>
     <string description="Text shown on Android Toast when permissions are not granted.                          [CHAR_LIMIT=30]" name="no_permissions">
             Permissions not granted</string>
+    <string description=" Message asking the user to place their phone into Cardboard. This is a generic message used in the absence of knowing the current viewer. [CHAR LIMIT=50]" name="place_your_phone_into_cardboard">
+      Place your phone into your Cardboard viewer
+    </string>
+    <string description=" Message format asking the user to place their phone into the Cardboard compatible viewer that is currently configured. [CHAR LIMIT=50]" name="place_your_viewer_into_viewer_format">
+      Place your phone into your <ns1:g example="Cardboard I/O 2015" id="viewer_name">%s</ns1:g> viewer
+    </string>
     <string description="Text shown on bottom of QR code capture activity to indicate instructions                          to read QR code. [CHAR_LIMIT=50]" name="reading_qr_code_instructions">
             Find this Cardboard symbol on your viewer</string>
     <string name="search_menu_title">Search</string>
+    <string description=" Accessibility description for the settings button displayed at the bottom of a VR application. [CHAR LIMIT=50]" name="settings_button_content_description">
+    settings
+  </string>
+    <string description=" Short text shown in a button in the dialog box that shows up to help users configure their Cardboard experience. By clicking on this button, the user is taken to the Cardboard app to setup their Cardboard viewer. [CHAR LIMIT=30]" name="setup_button">
+      Setup
+    </string>
     <string description="Text shown for button to skip the workflow to pair a Cardboard view with                          the user&apos;s phone. [CHAR_LIMIT=10]" name="skip_scanning">
             SKIP</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string description=" Text which when pressed, takes the user to the view that allows them to switch their Cardboard compatible viewer. [CHAR LIMIT=10]" name="switch_viewer_action">
+      Switch
+    </string>
+    <string description=" Prompt asking if the user wants to switch their Cardboard compatible viewer. [CHAR LIMIT=45]" name="switch_viewer_prompt">
+      Using a different viewer?
+    </string>
     <string description="QrCodeCapture activity title. [CHAR_LIMIT=30]" name="title_activity_qr_code_capture">
             QrCodeCapture</string>
     <string description="Text shown when a device with NFC tag is detected [CHAR_LIMIT=30]" name="viewer_detected">
@@ -1374,6 +1448,11 @@
     </style>
     <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
 </style>
+    <style name="GvrDialogTheme" parent="@android:style/Theme.Holo.Light.Dialog">
+<item name="android:windowBackground">@android:color/transparent</item>
+</style>
+    <style name="NoSystemUI" parent="VrActivityTheme">
+</style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -1681,12 +1760,25 @@
     <style name="ThemeOverlay.AppCompat.Dialog" parent="Base.ThemeOverlay.AppCompat.Dialog"/>
     <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="Base.ThemeOverlay.AppCompat.Dialog.Alert"/>
     <style name="ThemeOverlay.AppCompat.Light" parent="Base.ThemeOverlay.AppCompat.Light"/>
+    <style name="UiButton">
+<item name="android:layout_width">wrap_content</item>
+<item name="android:background">@drawable/rippleable</item>
+<item name="android:layout_height">wrap_content</item>
+<item name="android:padding">9dip</item>
+</style>
     <style name="UnityThemeSelector" parent="BaseUnityTheme">
 	<item name="android:windowBackground">@android:color/black</item>
 </style>
     <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
     <item name="android:windowIsTranslucent">true</item>
     <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+    <style name="VrActivityTheme" parent="@android:style/Theme.Black.NoTitleBar">
+<item name="android:windowFullscreen">true</item>
+<item name="android:windowAnimationStyle">@null</item>
+<item name="android:windowActionBar">false</item>
+<item name="android:windowDisablePreview">true</item>
+<item name="android:windowContentOverlay">@null</item>
 </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>

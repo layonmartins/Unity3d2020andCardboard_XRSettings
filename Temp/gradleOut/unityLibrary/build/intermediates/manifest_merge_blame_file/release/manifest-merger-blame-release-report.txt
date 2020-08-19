@@ -102,7 +102,7 @@
 58-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-101
 59            android:name="unity.build-id"
 59-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:16-45
-60            android:value="b66e89eb-c0c5-48a4-a889-aa9ebdb0699b" />
+60            android:value="d29db4cb-12fd-4b33-b6f1-1bfc7255fac2" />
 60-->/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:46-98
 61    </application>
 62
