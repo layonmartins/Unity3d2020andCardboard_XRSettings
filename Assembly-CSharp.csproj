@@ -36,9 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.1.0\Hello Cardboard\Assets\Scripts\CardboardStartup.cs" />
-     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.1.0\Hello Cardboard\Assets\Scripts\CameraPointer.cs" />
-     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.1.0\Hello Cardboard\Assets\Scripts\ObjectController.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrEventExecutor.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\UI\GvrDropdown.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\HelloVR\HeadsetDemoManager.cs" />
@@ -78,6 +75,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerEventData.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrDaydreamApi.cs" />
+     <Compile Include="Assets\MyScripts\RotateCube.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\HeadsetProviders\AndroidNativeHeadsetEnums.cs" />
@@ -87,6 +85,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointerRaycaster.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrBaseArmModel.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Headset\Enums\GvrSafetyRegionType.cs" />
+     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.1.0\Hello Cardboard\Assets\Scripts\CardboardStartup.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerInputDevice.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrInputModuleController.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Demos\Scripts\DemoSeeThroughController.cs" />
@@ -97,6 +96,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTrackedController.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrLaserPointer.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerUtils.cs" />
+     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.1.0\Hello Cardboard\Assets\Scripts\CameraPointer.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\Internal\GvrBetaSettingsProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrActivityHelper.cs" />
@@ -146,6 +146,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Headset\Enums\GvrEventType.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\KeyboardDemo\KeyboardDelegateExample.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\Generated\PhoneEvent.cs" />
+     <Compile Include="Assets\Samples\Google Cardboard XR Plugin for Unity\1.1.0\Hello Cardboard\Assets\Scripts\ObjectController.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\InputEvents\BoolEvent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModule.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\IGvrArmModelReceiver.cs" />
@@ -163,7 +164,7 @@
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerVisualMulti.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\AndroidNativeKeyboardProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\EmulatorKeyboardProvider.cs" />
-     <Compile Include="Assets\MyScripts\RotateCube.cs" />
+     <Compile Include="Assets\MyScripts\PlayerWalk.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />
@@ -714,8 +715,14 @@
     <Reference Include="netstandard">
         <HintPath>/home/venturus/Unity3d/2020.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -723,32 +730,14 @@
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Google.XR.Cardboard">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.XR.Cardboard">
-        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -756,17 +745,29 @@
     <Reference Include="Unity.XR.Management.Editor">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Google.XR.Cardboard.Editor">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
         <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>/home/venturus/Unity3dProjects/XR_Cardboard/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
