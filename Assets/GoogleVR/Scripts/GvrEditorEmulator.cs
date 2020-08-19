@@ -101,9 +101,6 @@ public class GvrEditorEmulator : MonoBehaviour
         }
 
         bool rolled = false;
-        //print log
-        Debug.Log("layonf: CanChangeYawPitch() = " + CanChangeYawPitch());
-        Debug.Log("layonf: CanChangeRoll() = " + CanChangeRoll());
         if (CanChangeYawPitch())
         {
             GvrCursorHelper.HeadEmulationActive = true;
@@ -199,12 +196,10 @@ public class GvrEditorEmulator : MonoBehaviour
         // If the MouseControllerProvider is currently active, then don't move the camera.
         if (MouseControllerProvider.IsActivateButtonPressed)
         {
-            Debug.Log("CanChangeYawPitch : IsActivateButtonPressed return false");
             return false;
         }
 
-        return Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt);
-        //return Input.GetKey(KeyCode.Z);
+        return Input.GetKey(KeyCode.LeftAlt) || Input.GetKey(KeyCode.RightAlt) || Input.GetKey(KeyCode.X);
     }
 
     private bool CanChangeRoll()
@@ -215,7 +210,7 @@ public class GvrEditorEmulator : MonoBehaviour
             return false;
         }
 
-        return Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl);
+        return Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.Z);
     }
 
     private void UpdateHeadPositionAndRotation()
