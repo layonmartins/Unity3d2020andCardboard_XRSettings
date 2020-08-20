@@ -6,6 +6,8 @@ ScriptsOnlyBuild:
     - GvrPointerInputModule
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
+    - PlayerGrab
+    - PlayerWalk
     - RotateCube
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
@@ -45,6 +47,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -58,24 +62,32 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11772}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12138}
     - Class: 114
-      Script: {instanceID: 12502}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12802}
+      Script: {instanceID: 12504}
     - Class: 114
-      Script: {instanceID: 13162}
+      Script: {instanceID: 12804}
     - Class: 114
-      Script: {instanceID: 13596}
+      Script: {instanceID: 13164}
     - Class: 114
-      Script: {instanceID: 13754}
+      Script: {instanceID: 13598}
     - Class: 114
-      Script: {instanceID: 14182}
+      Script: {instanceID: 13756}
     - Class: 114
-      Script: {instanceID: 14216}
+      Script: {instanceID: 14184}
+    - Class: 114
+      Script: {instanceID: 14218}
+    - Class: 114
+      Script: {instanceID: 14828}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -234,6 +246,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 765af7a082ba5827591cd9ec8b9ca7c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerWalk
   - hash:
       serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
@@ -852,6 +870,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f1706000e598ef53ebfc28ff95e57a9b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerGrab
   platform: 13
   scenePathNames:
   - Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity
