@@ -165,6 +165,7 @@ UnityEngine.Application::get_unityVersion
 UnityEngine.Application::get_version
 UnityEngine.Application::Quit
 UnityEngine.Application::get_platform
+UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AudioSettings::StartAudioOutput
 UnityEngine.AudioSettings::StopAudioOutput
 UnityEngine.Behaviour::get_enabled
@@ -506,6 +507,9 @@ UnityEngine.Resources::GetBuiltinResource
 UnityEngine.Resources::Load
 UnityEngine.Rigidbody::set_useGravity
 UnityEngine.Rigidbody::set_velocity_Injected
+UnityEngine.SceneManagement.SceneManager::get_sceneCount
+UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
+UnityEngine.SceneManagement.SceneManager::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi

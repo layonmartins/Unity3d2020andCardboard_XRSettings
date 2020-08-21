@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - PlayerGrab
     - PlayerWalk
     - RotateCube
+    - SceneController
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
     Unity.Rider.Editor.dll:
@@ -28,6 +29,11 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity:
     - Class: 1
@@ -79,11 +85,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 14186}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14220}
+      Script: {instanceID: 14188}
     - Class: 114
-      Script: {instanceID: 16720}
+      Script: {instanceID: 14222}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -97,6 +103,67 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/Scenes/Menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11768}
+    - Class: 114
+      Script: {instanceID: 11770}
+    - Class: 114
+      Script: {instanceID: 11772}
+    - Class: 114
+      Script: {instanceID: 11774}
+    - Class: 114
+      Script: {instanceID: 12066}
+    - Class: 114
+      Script: {instanceID: 12300}
+    - Class: 114
+      Script: {instanceID: 12504}
+    - Class: 114
+      Script: {instanceID: 13598}
+    - Class: 114
+      Script: {instanceID: 13756}
+    - Class: 114
+      Script: {instanceID: 13804}
+    - Class: 114
+      Script: {instanceID: 14188}
+    - Class: 114
+      Script: {instanceID: 15594}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -695,6 +762,12 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 0ae0fd69995fe7a77d0799b6ab1a3def
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HandsGrab
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: GoogleVR.VideoDemo
@@ -881,11 +954,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 0ae0fd69995fe7a77d0799b6ab1a3def
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: HandsGrab
+    className: SceneController
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Menu.unity
   - Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity
   playerPath: /home/venturus/Unity3dProjects/XR_Cardboard/Build/XR_Cardboard.apk

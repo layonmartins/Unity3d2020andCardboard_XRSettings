@@ -455,6 +455,8 @@ struct RectMask2D_tD909811991B341D752E4C978C89EFB80FA7A2B15;
 struct RotateCube_tC21316091B4E75D28FBC16262AAD7ED6E4B3BB77;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
+// SceneController
+struct SceneController_t8611277038809278C31AE35555719D7AE5438CA9;
 // GoogleVR.VideoDemo.ScrubberEvents
 struct ScrubberEvents_t1B07E8378EC057311E635058D715A3BCC8B9848B;
 // UnityEngine.UI.Selectable
@@ -13364,6 +13366,15 @@ public:
 };
 
 
+// SceneController
+struct  SceneController_t8611277038809278C31AE35555719D7AE5438CA9  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.EventSystems.UIBehaviour
 struct  UIBehaviour_tD1C6E2D542222546D68510ECE74036EFBC3C3B0E  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -17420,6 +17431,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDE7FF4F2E2EA284F6EFE00D627789D0E5B8B4461  Matrix4x4_Scale_m62CFAE1F96495BD3F39D6FB21385C04B9ACC50ED (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___vector0, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::Rotate(System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_mA3AE6D55AA9CC88A8F03C2B0B7CB3DB45ABA6A8E (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, float ___xAngle0, float ___yAngle1, float ___zAngle2, const RuntimeMethod* method);
+// System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092 (String_t* ___sceneName0, const RuntimeMethod* method);
+// System.Void UnityEngine.Application::Quit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_m8D720E5092786C2EE32310D85FE61C253D3B1F2A (const RuntimeMethod* method);
 // UnityEngine.EventSystems.RaycastResult GvrBasePointer::get_CurrentRaycastResult()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastResult_t9EFDE24B29650BD6DC8A49D954A3769E17146BCE  GvrBasePointer_get_CurrentRaycastResult_mC9A6A46FCEB2D5A67C4FEEFD4EB54ECFE9CBAAEA (GvrBasePointer_t59F43D7D1E62DED103CBF696F7C3AA4F26BB5BCA * __this, const RuntimeMethod* method);
 // System.Single UnityEngine.UI.Slider::get_maxValue()
@@ -34629,6 +34644,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateCube_ChangeSpin_mBE0BB9434FE68B3B0
 }
 // System.Void RotateCube::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotateCube__ctor_m95553A85652868D456F1632744913774CC92F0FF (RotateCube_tC21316091B4E75D28FBC16262AAD7ED6E4B3BB77 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void SceneController::ChangeScene(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneController_ChangeScene_m48C94F715718425A10B3075B97DDF5AB94CB1072 (SceneController_t8611277038809278C31AE35555719D7AE5438CA9 * __this, String_t* ___sceneName0, const RuntimeMethod* method)
+{
+	{
+		// SceneManager.LoadScene(sceneName);
+		String_t* L_0 = ___sceneName0;
+		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(L_0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void SceneController::QuitApp()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneController_QuitApp_m5B84B4A4BEE8672E5BE6921AE0BEF9A3867FBB5C (SceneController_t8611277038809278C31AE35555719D7AE5438CA9 * __this, const RuntimeMethod* method)
+{
+	{
+		// Application.Quit();
+		Application_Quit_m8D720E5092786C2EE32310D85FE61C253D3B1F2A(/*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void SceneController::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneController__ctor_mD43BE19257E8699CFE380AD920050CE78721E604 (SceneController_t8611277038809278C31AE35555719D7AE5438CA9 * __this, const RuntimeMethod* method)
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);

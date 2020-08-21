@@ -498,7 +498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 1221681786}
   myHand: {fileID: 1909803065}
-  handPower: 10
+  handPower: 100
 --- !u!1 &959308587
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,9 +656,10 @@ GameObject:
   - component: {fileID: 1221681787}
   - component: {fileID: 1221681791}
   - component: {fileID: 1221681792}
+  - component: {fileID: 1221681793}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,6 +817,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1221681793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221681786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9fd788d99d384b66870e1298c51fff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canGrab: 0
 --- !u!1001 &1292780555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1234,6 +1248,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1909803066}
+  - component: {fileID: 1909803068}
+  - component: {fileID: 1909803067}
   m_Layer: 0
   m_Name: MyHand
   m_TagString: Untagged
@@ -1257,6 +1273,32 @@ Transform:
   m_Father: {fileID: 959308593}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909803067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909803065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9fd788d99d384b66870e1298c51fff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canGrab: 0
+--- !u!65 &1909803068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909803065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.1598101, z: 1}
+  m_Center: {x: 0, y: -0.62427866, z: 0}
 --- !u!850595691 &2087525664
 LightingSettings:
   m_ObjectHideFlags: 0

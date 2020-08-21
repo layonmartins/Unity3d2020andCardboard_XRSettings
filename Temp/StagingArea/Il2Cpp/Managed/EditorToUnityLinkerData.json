@@ -6,6 +6,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -15,6 +16,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -24,6 +26,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -33,6 +36,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -42,6 +46,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -51,6 +56,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -60,6 +66,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -69,6 +76,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -99,6 +107,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -108,6 +117,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -194,6 +204,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -238,6 +249,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -247,6 +259,172 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Renderer",
+            "fullManagedTypeName": "UnityEngine.Renderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Light",
+            "fullManagedTypeName": "UnityEngine.Light",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshRenderer",
+            "fullManagedTypeName": "UnityEngine.MeshRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioBehaviour",
+            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AudioListener",
+            "fullManagedTypeName": "UnityEngine.AudioListener",
+            "moduleName": "Audio",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "GameObject",
+            "fullManagedTypeName": "UnityEngine.GameObject",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightmapSettings",
+            "fullManagedTypeName": "UnityEngine.LightmapSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture",
+            "fullManagedTypeName": "UnityEngine.Texture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture2D",
+            "fullManagedTypeName": "UnityEngine.Texture2D",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "LevelGameManager",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderSettings",
+            "fullManagedTypeName": "UnityEngine.RenderSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NavMeshSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
         },
@@ -261,54 +439,9 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Renderer",
-            "fullManagedTypeName": "UnityEngine.Renderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Light",
-            "fullManagedTypeName": "UnityEngine.Light",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "MeshFilter",
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshRenderer",
-            "fullManagedTypeName": "UnityEngine.MeshRenderer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioBehaviour",
-            "fullManagedTypeName": "UnityEngine.AudioBehaviour",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioListener",
-            "fullManagedTypeName": "UnityEngine.AudioListener",
-            "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
@@ -369,44 +502,8 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "GameObject",
-            "fullManagedTypeName": "UnityEngine.GameObject",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightmapSettings",
-            "fullManagedTypeName": "UnityEngine.LightmapSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Mesh",
             "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture",
-            "fullManagedTypeName": "UnityEngine.Texture",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture2D",
-            "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
@@ -417,33 +514,6 @@
             "nativeClass": "LightingSettings",
             "fullManagedTypeName": "UnityEngine.LightingSettings",
             "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "LevelGameManager",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RenderSettings",
-            "fullManagedTypeName": "UnityEngine.RenderSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "NavMeshSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
@@ -512,6 +582,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SceneController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Google.XR.Cardboard.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Google.XR.Cardboard.XRLoader",
@@ -550,6 +627,41 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventTrigger",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Button",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.CanvasScaler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Image",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Text",
             "moduleName": "",
             "usedInScenes": []
         }

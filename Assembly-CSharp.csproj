@@ -139,6 +139,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\GvrSettings.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Headset\Internal\IHeadsetProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\IKeyboardProvider.cs" />
+     <Compile Include="Assets\MyScripts\HandsGrab.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerGraphicRaycaster.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
@@ -166,7 +167,7 @@
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerVisualMulti.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\AndroidNativeKeyboardProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\EmulatorKeyboardProvider.cs" />
-     <Compile Include="Assets\MyScripts\HandsGrab.cs" />
+     <Compile Include="Assets\MyScripts\SceneController.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />
