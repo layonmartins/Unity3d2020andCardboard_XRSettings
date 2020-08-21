@@ -48,6 +48,7 @@
 		<type fullname="GvrPointerInputModule" preserve="nothing"/>
 		<type fullname="GvrPointerPhysicsRaycaster" preserve="nothing"/>
 		<type fullname="GvrReticlePointer" preserve="nothing"/>
+		<type fullname="HandsGrab" preserve="nothing"/>
 		<type fullname="PlayerGrab" preserve="nothing"/>
 		<type fullname="PlayerWalk" preserve="nothing"/>
 		<type fullname="RotateCube" preserve="nothing"/>

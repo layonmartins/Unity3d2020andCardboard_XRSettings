@@ -22146,6 +22146,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_mA3990A
 	bool retVal = _il2cpp_icall_func(__this);
 	return retVal;
 }
+// System.Boolean UnityEngine.GameObject::CompareTag(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_CompareTag_mA692D8508984DBE4A2FEFD19E29CB1C9D5CDE001 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, String_t* ___tag0, const RuntimeMethod* method)
+{
+	typedef bool (*GameObject_CompareTag_mA692D8508984DBE4A2FEFD19E29CB1C9D5CDE001_ftn) (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 *, String_t*);
+	static GameObject_CompareTag_mA692D8508984DBE4A2FEFD19E29CB1C9D5CDE001_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_CompareTag_mA692D8508984DBE4A2FEFD19E29CB1C9D5CDE001_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::CompareTag(System.String)");
+	bool retVal = _il2cpp_icall_func(__this, ___tag0);
+	return retVal;
+}
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SendMessage_mD49CCADA51268480B585733DD7C6540CCCC6EF5C (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, String_t* ___methodName0, RuntimeObject * ___value1, int32_t ___options2, const RuntimeMethod* method)
 {

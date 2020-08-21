@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - GvrPointerInputModule
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
+    - HandsGrab
     - PlayerGrab
     - PlayerWalk
     - RotateCube
@@ -76,11 +77,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13756}
     - Class: 114
-      Script: {instanceID: 14184}
+      Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 14218}
+      Script: {instanceID: 14186}
     - Class: 114
-      Script: {instanceID: 14828}
+      Script: {instanceID: 14220}
+    - Class: 114
+      Script: {instanceID: 16720}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -638,6 +641,12 @@ ScriptsOnlyBuild:
     className: GvrReticlePointer
   - hash:
       serializedVersion: 2
+      Hash: cc5478138c80ff50d700c3f55dddbe65
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerGrab
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -872,10 +881,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: f1706000e598ef53ebfc28ff95e57a9b
+      Hash: 0ae0fd69995fe7a77d0799b6ab1a3def
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerGrab
+    className: HandsGrab
   platform: 13
   scenePathNames:
   - Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity

@@ -1022,6 +1022,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Collider
 
+		//System.Void UnityEngine.Collider::set_isTrigger(System.Boolean)
+		void Register_UnityEngine_Collider_set_isTrigger();
+		Register_UnityEngine_Collider_set_isTrigger();
+
 		//UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
 		void Register_UnityEngine_Collider_get_attachedRigidbody();
 		Register_UnityEngine_Collider_get_attachedRigidbody();
@@ -1249,6 +1253,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Array UnityEngine.GameObject::GetComponentsInternal(System.Type,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)
 		void Register_UnityEngine_GameObject_GetComponentsInternal();
 		Register_UnityEngine_GameObject_GetComponentsInternal();
+
+		//System.Boolean UnityEngine.GameObject::CompareTag(System.String)
+		void Register_UnityEngine_GameObject_CompareTag();
+		Register_UnityEngine_GameObject_CompareTag();
 
 		//System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
 		void Register_UnityEngine_GameObject_get_activeInHierarchy();
@@ -2287,6 +2295,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Resources_Load();
 
 	//End Registrations for type : UnityEngine.Resources
+
+	//Start Registrations for type : UnityEngine.Rigidbody
+
+		//System.Void UnityEngine.Rigidbody::set_useGravity(System.Boolean)
+		void Register_UnityEngine_Rigidbody_set_useGravity();
+		Register_UnityEngine_Rigidbody_set_useGravity();
+
+		//System.Void UnityEngine.Rigidbody::set_velocity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_set_velocity_Injected();
+		Register_UnityEngine_Rigidbody_set_velocity_Injected();
+
+	//End Registrations for type : UnityEngine.Rigidbody
 
 	//Start Registrations for type : UnityEngine.Screen
 

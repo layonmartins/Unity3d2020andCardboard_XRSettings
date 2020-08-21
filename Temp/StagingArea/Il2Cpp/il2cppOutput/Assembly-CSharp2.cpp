@@ -11,6 +11,17 @@
 #include <stdint.h>
 
 
+template <typename T1>
+struct VirtActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
 template <typename T1, typename T2>
 struct VirtActionInvoker2
 {
@@ -87,6 +98,18 @@ struct VirtFuncInvoker4
 		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, p4, invokeData.method);
 	}
 };
+template <typename T1>
+struct GenericVirtActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
 template <typename T1, typename T2>
 struct GenericVirtActionInvoker2
 {
@@ -132,6 +155,17 @@ struct GenericVirtActionInvoker3
 		VirtualInvokeData invokeData;
 		il2cpp_codegen_get_generic_virtual_invoke_data(method, obj, &invokeData);
 		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename T1, typename T2>
@@ -208,6 +242,18 @@ struct InterfaceFuncInvoker0
 	{
 		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
 		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct GenericInterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (const RuntimeMethod* method, RuntimeObject* obj, T1 p1)
+	{
+		VirtualInvokeData invokeData;
+		il2cpp_codegen_get_generic_interface_invoke_data(method, obj, &invokeData);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
 	}
 };
 template <typename T1, typename T2>
@@ -320,6 +366,8 @@ struct VertexHelper_tDE8B67D3B076061C4F8DF325B0D63ED2E5367E55;
 struct VideoControlsManager_t15A6C047662582A5227C693432DED0CFA5EE83CB;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+// GvrKeyboard/ErrorCallback
+struct ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A;
 // GvrKeyboard/KeyboardCallback
 struct KeyboardCallback_tDB4CF7B81122BA03C3FF6DC0E66E78CB05163754;
 // GvrKeyboard/StandardCallback
@@ -610,6 +658,7 @@ IL2CPP_EXTERN_C RuntimeClass* CodedOutputStream_tD867115083E6EF3CC4115B4520F336B
 IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* DepthMapEvent_t7691FF51B1BA87B6C1956FA5B068B353AFAE4885_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ExtensionRegistry_tA514B2DBA012D0A99007A1EFF4CE63F86CB87AC5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GvrKeyboardError_t5AA91C2A05BABA98A23D02740D94144EA1CD17E3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GvrKeyboardEvent_t8C400EDECAB8B3A23273C64282D4E15637DC24FF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GyroscopeEvent_tF2BAAD2CD7ADDA6E60818AC49693E7B1DF087F19_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ICodedInputStream_tA2695FFC8DF03FDE79D7CEF537D7E320C6BCA932_il2cpp_TypeInfo_var;
@@ -969,6 +1018,7 @@ IL2CPP_EXTERN_C const uint32_t DepthMapEvent_get_DefaultInstance_m468BACF0728BE3
 IL2CPP_EXTERN_C const uint32_t DepthMapEvent_get_SerializedSize_m0094D5A1938929AA08A8E3E1ADC11A5440B57BA5_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DepthMapEvent_get_ZDistancesCount_m26C54143C760A4B422D3277C8242001BC97BA48A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t DepthMapEvent_get_ZDistancesList_m89D4504BC02DD517DA41224095FA8E1B60726AAC_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t ErrorCallback_BeginInvoke_mA06F2B983542E405EFCB5500022852206C9F5014_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ExtensionRegistry_get_Empty_mC0CEC24AC7345586186C0641D64BAAC63413DAA9AssemblyU2DCSharp2_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GetPointForDistanceDelegate_BeginInvoke_m34881E2505F8E050C9D0145A39443BF040EE173A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GyroscopeEvent_CreateBuilderForType_mC4FC95E8A9972D95F80BD0C02404A0C33E8F1695_MetadataUsageId;
@@ -3893,6 +3943,24 @@ public:
 };
 
 
+// GvrKeyboardError
+struct  GvrKeyboardError_t5AA91C2A05BABA98A23D02740D94144EA1CD17E3 
+{
+public:
+	// System.Int32 GvrKeyboardError::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(GvrKeyboardError_t5AA91C2A05BABA98A23D02740D94144EA1CD17E3, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // GvrKeyboardEvent
 struct  GvrKeyboardEvent_t8C400EDECAB8B3A23273C64282D4E15637DC24FF 
 {
@@ -6472,6 +6540,15 @@ public:
 };
 
 
+// GvrKeyboard_ErrorCallback
+struct  ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // GvrKeyboard_KeyboardCallback
 struct  KeyboardCallback_tDB4CF7B81122BA03C3FF6DC0E66E78CB05163754  : public MulticastDelegate_t
 {
@@ -8761,6 +8838,133 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t4F0FAA9EDBEE6830E4DBF623649779E69E8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t4F0FAA9EDBEE6830E4DBF623649779E69E8A9302 * Builder_SetNormalizedX_mABF34CEC072FA7F565FDB22FDB5B2A61ED612218 (Builder_t4F0FAA9EDBEE6830E4DBF623649779E69E8A9302 * __this, float ___value0, const RuntimeMethod* method);
 // proto.PhoneEvent/Types/MotionEvent/Types/Pointer/Builder proto.PhoneEvent/Types/MotionEvent/Types/Pointer/Builder::SetNormalizedY(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t4F0FAA9EDBEE6830E4DBF623649779E69E8A9302 * Builder_SetNormalizedY_m58BDA533CBAD2377DE98C21A7AD316308C50D721 (Builder_t4F0FAA9EDBEE6830E4DBF623649779E69E8A9302 * __this, float ___value0, const RuntimeMethod* method);
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A (ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A * __this, int32_t ___err0, const RuntimeMethod* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_method_pointer(((RuntimeDelegate*)__this)->method));
+
+	// Native function invocation
+	il2cppPInvokeFunc(___err0);
+
+}
+// System.Void GvrKeyboard_ErrorCallback::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorCallback__ctor_mAEC081550152AD03E7D699D38E3DD735AD098EAB (ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	__this->set_method_ptr_0(il2cpp_codegen_get_method_pointer((RuntimeMethod*)___method1));
+	__this->set_method_3(___method1);
+	__this->set_m_target_2(___object0);
+}
+// System.Void GvrKeyboard_ErrorCallback::Invoke(GvrKeyboardError)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorCallback_Invoke_mBB1A1C1717897E672132E1F5FF0215ADBD369BCD (ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A * __this, int32_t ___err0, const RuntimeMethod* method)
+{
+	DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* delegateArrayToInvoke = __this->get_delegates_11();
+	Delegate_t** delegatesToInvoke;
+	il2cpp_array_size_t length;
+	if (delegateArrayToInvoke != NULL)
+	{
+		length = delegateArrayToInvoke->max_length;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(delegateArrayToInvoke->GetAddressAtUnchecked(0));
+	}
+	else
+	{
+		length = 1;
+		delegatesToInvoke = reinterpret_cast<Delegate_t**>(&__this);
+	}
+
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		Delegate_t* currentDelegate = delegatesToInvoke[i];
+		Il2CppMethodPointer targetMethodPointer = currentDelegate->get_method_ptr_0();
+		RuntimeObject* targetThis = currentDelegate->get_m_target_2();
+		RuntimeMethod* targetMethod = (RuntimeMethod*)(currentDelegate->get_method_3());
+		if (!il2cpp_codegen_method_is_virtual(targetMethod))
+		{
+			il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found(targetMethod);
+		}
+		bool ___methodIsStatic = MethodIsStatic(targetMethod);
+		int ___parameterCount = il2cpp_codegen_method_parameter_count(targetMethod);
+		if (___methodIsStatic)
+		{
+			if (___parameterCount == 1)
+			{
+				// open
+				typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(___err0, targetMethod);
+			}
+			else
+			{
+				// closed
+				typedef void (*FunctionPointerType) (void*, int32_t, const RuntimeMethod*);
+				((FunctionPointerType)targetMethodPointer)(targetThis, ___err0, targetMethod);
+			}
+		}
+		else
+		{
+			// closed
+			if (il2cpp_codegen_method_is_virtual(targetMethod) && !il2cpp_codegen_object_is_of_sealed_type(targetThis) && il2cpp_codegen_delegate_has_invoker((Il2CppDelegate*)__this))
+			{
+				if (targetThis == NULL)
+				{
+					typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(___err0, targetMethod);
+				}
+				else if (il2cpp_codegen_method_is_generic_instance(targetMethod))
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						GenericInterfaceActionInvoker1< int32_t >::Invoke(targetMethod, targetThis, ___err0);
+					else
+						GenericVirtActionInvoker1< int32_t >::Invoke(targetMethod, targetThis, ___err0);
+				}
+				else
+				{
+					if (il2cpp_codegen_method_is_interface_method(targetMethod))
+						InterfaceActionInvoker1< int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), il2cpp_codegen_method_get_declaring_type(targetMethod), targetThis, ___err0);
+					else
+						VirtActionInvoker1< int32_t >::Invoke(il2cpp_codegen_method_get_slot(targetMethod), targetThis, ___err0);
+				}
+			}
+			else
+			{
+				if (targetThis == NULL && il2cpp_codegen_class_is_value_type(il2cpp_codegen_method_get_declaring_type(targetMethod)))
+				{
+					typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)((reinterpret_cast<RuntimeObject*>(&___err0) - 1), targetMethod);
+				}
+				else
+				{
+					typedef void (*FunctionPointerType) (void*, int32_t, const RuntimeMethod*);
+					((FunctionPointerType)targetMethodPointer)(targetThis, ___err0, targetMethod);
+				}
+			}
+		}
+	}
+}
+// System.IAsyncResult GvrKeyboard_ErrorCallback::BeginInvoke(GvrKeyboardError,System.AsyncCallback,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ErrorCallback_BeginInvoke_mA06F2B983542E405EFCB5500022852206C9F5014 (ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A * __this, int32_t ___err0, AsyncCallback_tA7921BEF974919C46FF8F9D9867C567B200BB0EA * ___callback1, RuntimeObject * ___object2, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ErrorCallback_BeginInvoke_mA06F2B983542E405EFCB5500022852206C9F5014_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(GvrKeyboardError_t5AA91C2A05BABA98A23D02740D94144EA1CD17E3_il2cpp_TypeInfo_var, &___err0);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+}
+// System.Void GvrKeyboard_ErrorCallback::EndInvoke(System.IAsyncResult)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ErrorCallback_EndInvoke_m8104024FC46E4270B16496AA8AEBF1644098857D (ErrorCallback_t5C163F70526089A1A55FBF64182AC8DEEB3B154A * __this, RuntimeObject* ___result0, const RuntimeMethod* method)
+{
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"

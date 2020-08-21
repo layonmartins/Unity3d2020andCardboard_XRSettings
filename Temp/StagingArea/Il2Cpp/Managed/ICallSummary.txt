@@ -239,6 +239,7 @@ UnityEngine.CanvasRenderer::set_cull
 UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
+UnityEngine.Collider::set_isTrigger
 UnityEngine.Collider::get_attachedRigidbody
 UnityEngine.Component::GetComponentFastPath
 UnityEngine.Component::GetComponentsForListInternal
@@ -281,6 +282,7 @@ UnityEngine.Font::get_dynamic
 UnityEngine.Font::get_fontSize
 UnityEngine.Font::get_material
 UnityEngine.GameObject::GetComponentsInternal
+UnityEngine.GameObject::CompareTag
 UnityEngine.GameObject::get_activeInHierarchy
 UnityEngine.GameObject::get_activeSelf
 UnityEngine.GameObject::get_layer
@@ -502,6 +504,8 @@ UnityEngine.RenderTexture::set_height
 UnityEngine.RenderTexture::set_width
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.Resources::Load
+UnityEngine.Rigidbody::set_useGravity
+UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi

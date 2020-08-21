@@ -7,14 +7,18 @@ public class PlayerGrab : MonoBehaviour
 
     public GameObject ball;
     public GameObject myHand;
-
+    public float handPower;
     bool inHands = false;
-    Vector3 ballPosition;
+    Collider ballCol;
+    Rigidbody ballRb;
+    Camera cam;
 
     // Start is called before the first frame update
     void Start()
     {
-        ballPosition = ball.transform.position;
+        ballCol = ball.GetComponent<SphereCollider>();
+        ballRb = ball.GetComponent<Rigidbody>();
+        cam = GetComponentInChildren<Camera>();
     }
 
     // Update is called once per frame
@@ -22,16 +26,23 @@ public class PlayerGrab : MonoBehaviour
     {
         if(Input.GetButtonDown("Fire1") || Input.GetKey(KeyCode.C))
         {
-            if (!inHands)
+            if (!inHands && myHand.GetComponent<HandsGrab>().canGrab)
             {
+                //grab the ball
+                ballCol.isTrigger = true;
                 ball.transform.SetParent(myHand.transform);
                 ball.transform.localPosition = new Vector3(0f, -.672f,0f);
+                ballRb.velocity = Vector3.zero;
+                ballRb.useGravity = false;
                 inHands = true;
             } else if (inHands)
             {
+                //release the ball
+                ballCol.isTrigger = false;
+                ballRb.useGravity = true;
                 this.GetComponent<PlayerGrab>().enabled = false;
                 ball.transform.SetParent(null);
-                ball.transform.localPosition = ballPosition;
+                ballRb.velocity = cam.transform.rotation * Vector3.forward * handPower;
                 inHands = false;
             }
         }
