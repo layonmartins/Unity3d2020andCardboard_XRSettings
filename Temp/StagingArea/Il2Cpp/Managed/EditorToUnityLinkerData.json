@@ -7,7 +7,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -17,7 +18,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -27,7 +29,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -37,7 +40,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -47,7 +51,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -57,7 +62,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -67,7 +73,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -77,7 +84,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -108,7 +116,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -118,7 +127,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -205,7 +215,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -250,7 +261,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -260,7 +272,19 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "FlareLayer",
+            "fullManagedTypeName": "UnityEngine.FlareLayer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -270,7 +294,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -280,7 +305,19 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshFilter",
+            "fullManagedTypeName": "UnityEngine.MeshFilter",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -290,7 +327,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -300,7 +338,8 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -310,7 +349,52 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Rigidbody",
+            "fullManagedTypeName": "UnityEngine.Rigidbody",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Collider",
+            "fullManagedTypeName": "UnityEngine.Collider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CapsuleCollider",
+            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "BoxCollider",
+            "fullManagedTypeName": "UnityEngine.BoxCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -338,7 +422,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -348,7 +433,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -362,12 +448,24 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Mesh",
+            "fullManagedTypeName": "UnityEngine.Mesh",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Menu.unity",
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Texture",
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -377,7 +475,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -405,7 +504,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -415,7 +515,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -425,43 +526,8 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/Menu.unity",
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "FlareLayer",
-            "fullManagedTypeName": "UnityEngine.FlareLayer",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MeshFilter",
-            "fullManagedTypeName": "UnityEngine.MeshFilter",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Rigidbody",
-            "fullManagedTypeName": "UnityEngine.Rigidbody",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Collider",
-            "fullManagedTypeName": "UnityEngine.Collider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
+                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity",
+                "Assets/Scenes/Level_01.unity"
             ]
         },
         {
@@ -475,36 +541,9 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CapsuleCollider",
-            "fullManagedTypeName": "UnityEngine.CapsuleCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "BoxCollider",
-            "fullManagedTypeName": "UnityEngine.BoxCollider",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "SphereCollider",
             "fullManagedTypeName": "UnityEngine.SphereCollider",
             "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Mesh",
-            "fullManagedTypeName": "UnityEngine.Mesh",
-            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity"
             ]
@@ -522,6 +561,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "CameraPointer",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Collectable",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -585,6 +631,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "SceneController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "WinGame",
             "moduleName": "",
             "usedInScenes": []
         },

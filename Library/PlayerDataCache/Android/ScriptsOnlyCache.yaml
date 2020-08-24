@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraPointer
+    - Collectable
     - GvrEditorEmulator
     - GvrPointerInputModule
     - GvrPointerPhysicsRaycaster
@@ -11,6 +12,7 @@ ScriptsOnlyBuild:
     - PlayerWalk
     - RotateCube
     - SceneController
+    - WinGame
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
     Unity.Rider.Editor.dll:
@@ -73,23 +75,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12504}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 12804}
+      Script: {instanceID: 12806}
     - Class: 114
-      Script: {instanceID: 13164}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 13756}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 13778}
+      Script: {instanceID: 13780}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 13990}
     - Class: 114
-      Script: {instanceID: 14188}
+      Script: {instanceID: 14190}
     - Class: 114
-      Script: {instanceID: 14222}
+      Script: {instanceID: 14224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -104,6 +106,65 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
+    Assets/Scenes/Level_01.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11772}
+    - Class: 114
+      Script: {instanceID: 12138}
+    - Class: 114
+      Script: {instanceID: 12300}
+    - Class: 114
+      Script: {instanceID: 12506}
+    - Class: 114
+      Script: {instanceID: 13166}
+    - Class: 114
+      Script: {instanceID: 13600}
+    - Class: 114
+      Script: {instanceID: 13758}
+    - Class: 114
+      Script: {instanceID: 14190}
+    - Class: 114
+      Script: {instanceID: 16150}
+    - Class: 114
+      Script: {instanceID: 17008}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Scenes/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -117,7 +178,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -136,22 +205,34 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12066}
     - Class: 114
+      Script: {instanceID: 12138}
+    - Class: 114
       Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12504}
+      Script: {instanceID: 12492}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 13756}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 13804}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 14188}
+      Script: {instanceID: 13758}
     - Class: 114
-      Script: {instanceID: 15594}
+      Script: {instanceID: 13780}
+    - Class: 114
+      Script: {instanceID: 13806}
+    - Class: 114
+      Script: {instanceID: 13990}
+    - Class: 114
+      Script: {instanceID: 14190}
     - Class: 115
       Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -318,7 +399,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 765af7a082ba5827591cd9ec8b9ca7c7
+      Hash: 19329fb838b92bb6170100d2c23262c0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerWalk
@@ -448,6 +529,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneController
   - hash:
       serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
@@ -957,9 +1044,16 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SceneController
+    className: Collectable
+  - hash:
+      serializedVersion: 2
+      Hash: c54e5d238d05f0415928866fafbf602e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WinGame
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity
+  - Assets/Scenes/Level_01.unity
   playerPath: /home/venturus/Unity3dProjects/XR_Cardboard/Build/XR_Cardboard.apk
