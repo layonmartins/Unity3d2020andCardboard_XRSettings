@@ -6,7 +6,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -15,7 +15,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -33,7 +33,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -42,7 +42,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -51,7 +51,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -60,7 +60,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -69,7 +69,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -99,7 +99,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -108,7 +108,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -194,7 +194,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -238,7 +238,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -247,7 +247,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "fullManagedTypeName": "UnityEngine.FlareLayer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -265,7 +265,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -274,7 +274,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -283,7 +283,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -292,7 +292,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -301,7 +301,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -310,7 +310,7 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -319,7 +319,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -328,16 +328,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CharacterController",
-            "fullManagedTypeName": "UnityEngine.CharacterController",
-            "moduleName": "Physics",
-            "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -346,7 +337,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -355,7 +346,25 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/GazeTeleportInteraction.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -364,7 +373,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -373,7 +382,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -382,7 +391,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -391,7 +400,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -400,7 +409,25 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/GazeTeleportInteraction.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -409,7 +436,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -418,7 +445,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -427,7 +454,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/PlayerController.unity"
+                "Assets/Scenes/GazeTeleportInteraction.unity"
             ]
         },
         {
@@ -475,13 +502,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "PlayerCtrl",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "PlayerGrab",
             "moduleName": "",
             "usedInScenes": []
@@ -497,6 +517,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "RotateCube",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Teleport",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "VRGaze",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -532,6 +566,27 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventTrigger",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.CanvasScaler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Image",
             "moduleName": "",
             "usedInScenes": []
         }

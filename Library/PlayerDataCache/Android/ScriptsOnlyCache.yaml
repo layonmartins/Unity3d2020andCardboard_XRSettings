@@ -7,10 +7,11 @@ ScriptsOnlyBuild:
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
     - HandsGrab
-    - PlayerCtrl
     - PlayerGrab
     - PlayerWalk
     - RotateCube
+    - Teleport
+    - VRGaze
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
     Unity.Rider.Editor.dll:
@@ -28,8 +29,11 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/PlayerController.unity:
+    Assets/Scenes/GazeTeleportInteraction.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -61,6 +65,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11794}
     - Class: 114
+      Script: {instanceID: 11796}
+    - Class: 114
+      Script: {instanceID: 12090}
+    - Class: 114
       Script: {instanceID: 12162}
     - Class: 114
       Script: {instanceID: 12328}
@@ -81,18 +89,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14272}
     - Class: 114
-      Script: {instanceID: 15576}
+      Script: {instanceID: 14308}
+    - Class: 114
+      Script: {instanceID: 24426}
+    - Class: 114
+      Script: {instanceID: 26792}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
-    - Class: 143
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -905,7 +923,19 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerCtrl
+  - hash:
+      serializedVersion: 2
+      Hash: 553c7c58c93c26a44354476aaf299bd0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VRGaze
+  - hash:
+      serializedVersion: 2
+      Hash: 83e769eee07fc231384c812eedbb8224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teleport
   platform: 13
   scenePathNames:
-  - Assets/Scenes/PlayerController.unity
+  - Assets/Scenes/GazeTeleportInteraction.unity
   playerPath: /home/venturus/Unity3dProjects/XR_Cardboard/Build/XR_Cardboard.apk
