@@ -970,6 +970,10 @@ PrefabInstance:
       propertyPath: wall
       value: 
       objectReference: {fileID: 1653858918}
+    - target: {fileID: 3455994158034534515, guid: 4db6d5f7ae0ecebd793af5cc068beca6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3455994158034534527, guid: 4db6d5f7ae0ecebd793af5cc068beca6, type: 3}
       propertyPath: m_Name
       value: Player
@@ -982,6 +986,42 @@ PrefabInstance:
     - {fileID: 3455994156847478979, guid: 4db6d5f7ae0ecebd793af5cc068beca6, type: 3}
     - {fileID: 3455994158034534516, guid: 4db6d5f7ae0ecebd793af5cc068beca6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4db6d5f7ae0ecebd793af5cc068beca6, type: 3}
+--- !u!1 &1138187423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3455994158034534527, guid: 4db6d5f7ae0ecebd793af5cc068beca6, type: 3}
+  m_PrefabInstance: {fileID: 1138187422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &1138187424
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138187423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1138187425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138187423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f4a8c953e740daeb7179b26b505244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3.5
 --- !u!1001 &1208905502
 PrefabInstance:
   m_ObjectHideFlags: 0

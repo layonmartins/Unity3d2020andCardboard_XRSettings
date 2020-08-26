@@ -184,6 +184,7 @@ UnityEngine.Camera::GetStereoProjectionMatrix_Injected
 UnityEngine.Camera::GetStereoViewMatrix_Injected
 UnityEngine.Camera::ScreenPointToRay_Injected
 UnityEngine.Camera::ScreenToViewportPoint_Injected
+UnityEngine.Camera::ViewportPointToRay_Injected
 UnityEngine.Camera::WorldToScreenPoint_Injected
 UnityEngine.Camera::get_pixelRect_Injected
 UnityEngine.Camera::set_nearClipPlane
@@ -240,6 +241,7 @@ UnityEngine.CanvasRenderer::set_cull
 UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
+UnityEngine.CharacterController::Move_Injected
 UnityEngine.Collider::set_isTrigger
 UnityEngine.Collider::get_attachedRigidbody
 UnityEngine.Component::GetComponentFastPath
@@ -595,6 +597,7 @@ UnityEngine.Transform::get_childCount
 UnityEngine.Transform::InverseTransformPoint_Injected
 UnityEngine.Transform::SetAsFirstSibling
 UnityEngine.Transform::SetParent
+UnityEngine.Transform::TransformDirection_Injected
 UnityEngine.Transform::TransformPoint_Injected
 UnityEngine.Transform::get_localPosition_Injected
 UnityEngine.Transform::get_localRotation_Injected

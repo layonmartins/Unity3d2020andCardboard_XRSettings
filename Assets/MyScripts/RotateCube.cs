@@ -5,20 +5,22 @@ using UnityEngine;
 public class RotateCube : MonoBehaviour
 {
     public float spinForce;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+    private bool isSpinning = false;
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, spinForce * Time.deltaTime, 0);
+        if(isSpinning)
+        {
+            transform.Rotate(0, spinForce * Time.deltaTime, 0);
+        } else if(!isSpinning)
+        {
+            transform.Rotate(0,0,0);
+        }
     }
 
     public void ChangeSpin()
     {
-        spinForce = -spinForce;
+        isSpinning = !isSpinning;
     }
 }

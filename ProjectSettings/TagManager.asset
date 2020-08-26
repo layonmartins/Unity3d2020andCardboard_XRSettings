@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ball
   - Coin
+  - RotateCube
   layers:
   - Default
   - TransparentFX

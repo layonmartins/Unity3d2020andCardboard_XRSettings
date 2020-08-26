@@ -1,4 +1,4 @@
-#Mon Aug 24 20:01:22 BRT 2020
+#Wed Aug 26 10:22:55 BRT 2020
 base.0=/home/venturus/Unity3dProjects/XR_Cardboard/Temp/gradleOut/launcher/build/intermediates/dex/release/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

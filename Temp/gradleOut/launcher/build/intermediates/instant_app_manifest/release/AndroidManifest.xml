@@ -77,7 +77,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="7fb0cc58-6f61-4454-9c58-b8c5cb6da090" />
+            android:value="d39c1c29-ac01-412e-9062-298af65be213" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
