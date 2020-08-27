@@ -10,8 +10,6 @@ ScriptsOnlyBuild:
     - PlayerGrab
     - PlayerWalk
     - RotateCube
-    - Teleport
-    - VRGaze
     Google.XR.Cardboard.dll:
     - Google.XR.Cardboard.XRLoader
     Unity.Rider.Editor.dll:
@@ -30,10 +28,8 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.Image
   sceneClasses:
-    Assets/Scenes/GazeTeleportInteraction.unity:
+    Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -54,6 +50,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
@@ -63,40 +61,34 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11776}
     - Class: 114
-      Script: {instanceID: 11796}
+      Script: {instanceID: 12142}
     - Class: 114
-      Script: {instanceID: 12090}
+      Script: {instanceID: 12306}
     - Class: 114
-      Script: {instanceID: 12162}
+      Script: {instanceID: 12512}
     - Class: 114
-      Script: {instanceID: 12328}
+      Script: {instanceID: 12812}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 13172}
     - Class: 114
-      Script: {instanceID: 12848}
+      Script: {instanceID: 13612}
     - Class: 114
-      Script: {instanceID: 13220}
+      Script: {instanceID: 13770}
     - Class: 114
-      Script: {instanceID: 13664}
+      Script: {instanceID: 13792}
     - Class: 114
-      Script: {instanceID: 13822}
+      Script: {instanceID: 14002}
     - Class: 114
-      Script: {instanceID: 13844}
+      Script: {instanceID: 14204}
     - Class: 114
-      Script: {instanceID: 14068}
-    - Class: 114
-      Script: {instanceID: 14272}
-    - Class: 114
-      Script: {instanceID: 14308}
-    - Class: 114
-      Script: {instanceID: 24426}
-    - Class: 114
-      Script: {instanceID: 26792}
+      Script: {instanceID: 14238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -104,13 +96,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -553,6 +539,12 @@ ScriptsOnlyBuild:
     className: GvrBetaHeadset
   - hash:
       serializedVersion: 2
+      Hash: 1d4debfb7e5353b0216db7137176db3b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerCtrl
+  - hash:
+      serializedVersion: 2
       Hash: f7bb6096199e0cf058d5d69878184cf4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -611,6 +603,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 83e769eee07fc231384c812eedbb8224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Teleport
   - hash:
       serializedVersion: 2
       Hash: c54e5d238d05f0415928866fafbf602e
@@ -769,6 +767,12 @@ ScriptsOnlyBuild:
     className: KeyboardDelegateExample
   - hash:
       serializedVersion: 2
+      Hash: 553c7c58c93c26a44354476aaf299bd0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VRGaze
+  - hash:
+      serializedVersion: 2
       Hash: a2612813f45d0ced02c3e4bc9dbea8b4
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -917,25 +921,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 1d4debfb7e5353b0216db7137176db3b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerCtrl
-  - hash:
-      serializedVersion: 2
-      Hash: 553c7c58c93c26a44354476aaf299bd0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VRGaze
-  - hash:
-      serializedVersion: 2
-      Hash: 83e769eee07fc231384c812eedbb8224
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Teleport
   platform: 13
   scenePathNames:
-  - Assets/Scenes/GazeTeleportInteraction.unity
+  - Assets/Samples/Google Cardboard XR Plugin for Unity/1.1.0/Hello Cardboard/Assets/Scenes/HelloCardboard.unity
   playerPath: /home/venturus/Unity3dProjects/XR_Cardboard/Build/XR_Cardboard.apk
